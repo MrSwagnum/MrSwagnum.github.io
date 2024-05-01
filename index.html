@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <!-- 
-    three improvements are:
-    that the whole page is currently responsive 
-    images have been added with a style class tag so they can easily be edited
-    added footer with email and phone info at the bottom of the page
--->
+    two improvements are:
+    added propper boarders for biography and gallery
+    added video of game prototype to spice up the gallery
+  -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,35 +20,49 @@
         <p>I am Michael and this is my Portfolio Website
             
         </p>
-        <hr>
-        
-        <hr>
+       
         
       
 <hr>
+<div class="link-row">
+    <a href="#Comments">Comments Section</a>
+    <a href="#photos">Photo Gallery</a>
+</div>
 
-<p><a href="#Comments">Comments Section</a></p>
-<p><a href="#photos">Photo Gallery</a></p>
 <h1>
     Biography
 </h1>
+<div class="centered-text-container">
 <p>
     I chose to become a game designer when I was choosing a major for my first year of college. I have always been enthusiactic about games as a medium for storytelling and have researched the topic extensively. I wanted to challenge myself by joining GIMM, (games, interactive, media, and mobile) to see if I had what it takes to realize my own ideas and ambitions.
-    </p>
-    <p>
+    
+    
         Turns out that I do have what it takes! I've been learning and absorbing all different avenues of the tech industry, like web development, adobe products, modeling, physical computing, and Unity. I understand all the different parts that go into creating a game and how to properly manage a team to achieve that final product. 
-        <p>
+        
             I specifically enjoy the design aspects of creating a game. Storyboarding, game mechanics, and art design being my favorite parts to work on.
-        </p>
-        <p>
+        
+        
             This website is to give a futher glance into my achievements so far, and to be a point of reference in the future to see how much I will have grown.
         </p>
-    </p>
+    </div>
 <h1 id="photos">Photo Gallery</h1>
-<img src="C:\Users\Michael Woodward\Documents\GitHub\MrSwagnum.github.io\assets\Michael.png" alt="Me" class="images">
+<div class="link-row">
+    <img src="C:\Users\Michael Woodward\Documents\GitHub\MrSwagnum.github.io\assets\Michael.png" alt="Me" class="images">
 <img src="C:\Users\Michael Woodward\Documents\GitHub\MrSwagnum.github.io\assets\hive ghost.png" alt="ghost" class="images">
-<img src="C:\Users\Michael Woodward\Documents\GitHub\MrSwagnum.github.io\assets\Artboard 1.png" alt="concept art" class="images">
-<img src="C:\Users\Michael Woodward\Documents\GitHub\MrSwagnum.github.io\assets\title screen.png" alt="title" class="images">
+
+</div>
+<div class="link-row">
+    <img src="C:\Users\Michael Woodward\Documents\GitHub\MrSwagnum.github.io\assets\Artboard 1.png" alt="concept art" class="images">
+    <img src="C:\Users\Michael Woodward\Documents\GitHub\MrSwagnum.github.io\assets\title screen.png" alt="title" class="images">   
+</div>
+<div class="link-row">
+    <video class="video" width="960" height="720" controls>
+        <source src="C:\Users\Michael Woodward\Documents\GitHub\MrSwagnum.github.io\assets\prototype video.mp4" type="video/mp4">
+        
+     
+      </video>
+    </div>
+
 
     <h1 id="Comments">Comments Section</h1>
         <form action="submit_form.php" method="POST">
@@ -71,6 +84,7 @@
             <input type="submit" value="Submit">
         </form>
         <footer>
+            
             <label for="email">Email:</label>
             <a href="michaelwoodward@u.boisestate.edu">
                 michaelwoodward@u.boisestate.edu 
@@ -81,6 +95,11 @@
             <label for="email">Phone Number:</label>
         <a href="949-887-4672">
             949-887-4672
+        </a>
+        <hr>
+        <label for="email">LinkedIn:</label>
+        <a href="https://www.linkedin.com/in/michael-woodward-dub/">
+            LinkedIn
         </a>
         </footer>
     </div>
